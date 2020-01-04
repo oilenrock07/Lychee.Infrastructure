@@ -1,0 +1,13 @@
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\Lychee.Infrastructure.dll.config
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\Lychee.Infrastructure.dll
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\Lychee.Infrastructure.pdb
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\obj\Debug\Lychee.Infrastructure.csprojAssemblyReference.cache
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\obj\Debug\Lychee.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\obj\Debug\Lychee.Infrastructure.csproj.CopyComplete
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\obj\Debug\Lychee.Infrastructure.dll
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\obj\Debug\Lychee.Infrastructure.pdb
+C:\Cawi\DEV\Lychee\Lychee.Infrastructure\Lychee.Infrastructure\Lychee.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
