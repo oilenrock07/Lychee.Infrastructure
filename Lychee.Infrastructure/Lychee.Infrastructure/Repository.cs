@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
 using System.Linq;
@@ -63,6 +64,11 @@ namespace Lychee.Infrastructure
         public void SaveChanges()
         {
             _context.SaveChanges();
+        }
+
+        public ICollection<T2> ExecuteSqlQuery<T2>(string sql, params object[] args) where T2 : class
+        {
+            return _context.Database.SqlQuery<T2>(sql, args).ToList();
         }
     }
 }

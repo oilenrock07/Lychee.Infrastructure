@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,19 @@ namespace Lychee.Infrastructure.Test
             var repository = new Repository<Stocks>(databaseFactory.GetContext());
 
             var stocks = repository.GetAll().ToList();
+        }
+
+        [Test]
+        public void TestExecutingStoredProcedure()
+        {
+            var databaseFactory = new DatabaseFactory(new StockContext());
+            var repository = new Repository<Stocks>(databaseFactory.GetContext());
+
+            var days = new SqlParameter {ParameterName = "Days", Value = 10};
+            var losingStreak = new SqlParameter { ParameterName = "LosingWinningStreak", Value = 8 };
+
+            var stocks =
+                repository.ExecuteSqlQuery<StockTrendReportModel>("exec RetrieveStockTrendReport @Days, @LosingWinningStreak", days, losingStreak);
         }
     }
 }

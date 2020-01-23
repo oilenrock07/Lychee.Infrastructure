@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
@@ -23,5 +24,7 @@ namespace Lychee.Infrastructure.Interfaces
         /// Explicitly save the changes
         /// </summary>
         void SaveChanges();
+
+        ICollection<T2> ExecuteSqlQuery<T2>(string sql, params object[] args) where T2 : class;
     }
 }
