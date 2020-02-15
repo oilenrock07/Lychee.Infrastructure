@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>Lychee.Infrastructure</id>
-    <version>1.4</version>
+    <version>1.4.2</version>
     <title>Lychee.Infrastructure</title>
     <authors>Cornelio Cawicaan Jr.</authors>
     <owners>Cornelio Cawicaan Jr.</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <description>Infrastructure of Lychee Projects</description>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>Added First Or Default And Last Or Default</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>Lychee Infrastructure</tags>
     <dependencies>

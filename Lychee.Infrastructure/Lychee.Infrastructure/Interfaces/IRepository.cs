@@ -13,7 +13,11 @@ namespace Lychee.Infrastructure.Interfaces
 
         IQueryable<T> Find(Expression<Func<T, bool>> expression);
 
-        T FirstOrDefault(System.Linq.Expressions.Expression<Func<T, bool>> expression);
+        T FirstOrDefault();
+        T FirstOrDefault(Expression<Func<T, bool>> expression);
+
+        T LastOrDefault();
+        T LastOrDefault(Expression<Func<T, bool>> expression);
         T Add(T entity);
 
         void Update(T entity);
