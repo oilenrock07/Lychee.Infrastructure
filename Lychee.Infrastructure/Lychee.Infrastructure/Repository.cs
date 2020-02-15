@@ -39,24 +39,9 @@ namespace Lychee.Infrastructure
             return DbSet.Where(expression);
         }
 
-        public virtual T FirstOrDefault()
-        {
-            return DbSet.FirstOrDefault();
-        }
-
         public virtual T FirstOrDefault(System.Linq.Expressions.Expression<Func<T, bool>> expression)
         {
             return DbSet.FirstOrDefault(expression);
-        }
-
-        public virtual T LastOrDefault()
-        {
-            return DbSet.LastOrDefault();
-        }
-
-        public virtual T LastOrDefault(System.Linq.Expressions.Expression<Func<T, bool>> expression)
-        {
-            return DbSet.LastOrDefault(expression);
         }
 
         public virtual T Add(T entity)
