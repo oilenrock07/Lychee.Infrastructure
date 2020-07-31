@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lychee.Stocks.Entities;
 
 namespace Lychee.Infrastructure.Test
 {
@@ -15,5 +16,8 @@ namespace Lychee.Infrastructure.Test
         }
 
         public virtual IDbSet<Stocks> Stocks { get; set; }
+        public virtual IDbSet<Watchlist> WatchLists { get; set; }
+        public virtual IDbSet<WatchListGroup> WatchListGroups { get; set; }
+
     }
 }
