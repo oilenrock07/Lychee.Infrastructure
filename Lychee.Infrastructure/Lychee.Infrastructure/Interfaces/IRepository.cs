@@ -16,7 +16,10 @@ namespace Lychee.Infrastructure.Interfaces
         T FirstOrDefault(System.Linq.Expressions.Expression<Func<T, bool>> expression);
         T Add(T entity);
 
+        [Obsolete("Update tries to select and update the record. Please use Attach")]
         void Update(T entity);
+
+        void Attach(T entity);
 
         void Delete(T entity);
 

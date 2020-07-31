@@ -17,7 +17,17 @@ namespace Lychee.Infrastructure.Test
             var databaseFactory = new DatabaseFactory(new StockContext());
             var repository = new Repository<Stocks>(databaseFactory.GetContext());
 
-            var stocks = repository.GetAll().ToList();
+            var stock = repository.FirstOrDefault(x => x.StockCode == "2GO");
+            repository.Attach(stock);
+            stock.StockType = "Basura";
+            repository.SaveChanges();
+            //var stocks = repository.GetAll().ToList();
+        }
+
+        [Test]
+        public void AddOrUpdateTest()
+        {
+
         }
 
         [Test]

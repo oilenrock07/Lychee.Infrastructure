@@ -51,9 +51,15 @@ namespace Lychee.Infrastructure
             return entity;
         }
 
+        [Obsolete("Update tries to select and update the record. Please use Attach")]
         public virtual void Update(T entity)
         {
             DbSet.AddOrUpdate(entity);
+        }
+
+        public virtual void Attach(T entity)
+        {
+            DbSet.Attach(entity);
         }
 
         public virtual void Delete(T entity)
